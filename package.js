@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.use([
     'templating',
-    'mrt:moment',
+    'mrt:moment@2.8.1',
   ],'client');
   
   api.addFiles('steeve:moment-dateformat.js');
